@@ -1,0 +1,107 @@
+scn MagReadSkillPointAdd
+
+Begin GameMode
+	if iReadB > 0
+		
+			
+			player.ModAV Barter iReadB
+			set iReadB to 0
+			showMessage MsgMagB
+		
+	endif
+	if iReadEW > 0
+		
+			
+			player.ModAV EnergyWeapons iReadEW
+			set iReadEW to 0
+			showMessage MsgMagEW
+		
+	endif
+	if iReadEx > 0
+		
+			player.ModAV Explosives iReadEx
+			set iReadEx to 0
+			showMessage MsgMagEx
+		
+	endif
+	if iReadG > 0
+		
+			
+			player.ModAV Guns iReadG
+			set iReadG to 0
+			showMessage MsgMagG
+		
+	endif
+	if iReadL > 0
+		
+			
+			player.ModAV Lockpick iReadL
+			set iReadL to 0
+			showMessage MsgMagL
+		
+	endif
+	if iReadM > 0
+		
+			
+			player.ModAV Medicine iReadM
+			set iReadM to 0
+			showMessage MsgMagM
+		
+	endif
+	if iReadMe > 0
+		
+			
+			player.ModAV MeleeWeapons iReadMe
+			set iReadMe to 0
+			showMessage MsgMagMe
+		
+	endif
+	if iReadR > 0
+		
+			
+			player.ModAV Repair iReadR
+			set iReadR to 0
+			showMessage MsgMagR
+		
+	endif
+	if iReadSc > 0
+		
+			
+			player.ModAV Science iReadSc
+			set iReadSc to 0
+			showMessage MsgMagSc
+		
+	endif
+	if iReadSn > 0
+		
+			
+			player.ModAV Sneak iReadSn
+			set iReadSn to 0
+			showMessage MsgMagSn
+		
+	endif
+	if iReadSp > 0
+		
+			
+			player.ModAV Speech iReadSp
+			set iReadSp to 0
+			showMessage MsgMagSp
+		
+	endif
+	if iReadSu > 0
+		
+			
+			player.ModAV Survival iReadSu
+			set iReadSu to 0
+			showMessage MsgMagSu
+		
+	endif
+	if iReadU > 0
+		
+			
+			player.ModAV Unarmed iReadU
+			set iReadU to 0
+			showMessage MsgMagU
+		
+	endif
+End 
